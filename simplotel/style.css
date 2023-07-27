@@ -1,0 +1,339 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif; 
+}
+
+.container{
+    width: 100%;
+    padding-top:15px;
+}
+
+.nav-1{
+    position: absolute;
+    width: 100%;
+}
+
+.navbar ul{
+   list-style: none;
+   background-color: white;
+   padding: 4px;
+   text-align:center ;
+   margin-left: 40px;
+   margin-right:34px;
+   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.14);
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    display: block;
+    padding: 10px 50px;
+    font-size: 22px;
+    text-align: center;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;     
+}
+.pin{
+    padding: 50px;
+    z-index: 1;
+    position: absolute;
+    top:200px;
+    left: 100px;
+    width: 500px;
+    background-color: rgba(238, 94, 94, 0.629);
+}
+.pin h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.pin h3{
+    color: white;
+    font-weight: 400;   
+}
+
+.linear{
+    background-image: linear-gradient(to right, rgb(210, 74, 151) , rgba(245, 216, 28, 0.771));
+    padding: 50px 70px;
+    position: relative;
+    bottom: 4px;
+    margin-left: 40px;
+    left: 0px;
+    width: 85.4%;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.14);
+}
+.phone{
+    width: 25px;
+    margin-top: 10px;
+    margin-left: 190px;
+}
+.cart{
+    width: 25px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.img1{
+    padding-left:40px;
+    padding-right:30px;
+    width: 95%;
+    height: 20%;
+}
+
+.order{
+    margin-left: 42%;
+    font-size: 50px;
+    font-weight: bold;
+    color:white;
+}
+
+.main{
+    background-color: rgb(230, 230, 230);
+     position: relative;
+}
+
+.container3{
+    margin-left: 38px;
+    margin-bottom: 10px;
+    width: 95%;
+    margin-top: 15px;
+    padding-bottom: 10%;
+    background-image: linear-gradient(to right, rgb(210, 74, 151) , rgba(245, 216, 28, 0.771));
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.14);
+}
+
+.card{
+    width: 21rem;
+    padding: 20px 20px ;
+}
+
+.img2{
+    width: 80%;
+    border-top-right-radius: 70px;
+}
+
+.burger{
+    padding-left: 90px;
+    margin-top:10px;
+    font-size: 25px;
+}
+
+.lorem1{
+    margin-top: 20px; 
+    font-size: 17px;
+}
+
+.box1{
+    background-color: white;
+    border-radius: 0px 70px;  
+    height: 450px;
+    margin-right: 20px;
+    margin-left: 70px;
+    width: 22%;
+    margin-top: 50px;
+}
+
+.card2{
+    width: 21rem;
+    padding: 20px 20px ;
+}
+
+.img3{
+    width: 80%;
+    border-top-right-radius: 70px;
+}
+
+.pizza{
+    padding-left: 90px;
+    margin-top:10px;
+    font-size: 25px;
+}
+
+.lorem2{
+    margin-top: 20px; 
+    font-size: 17px;
+}
+
+.box2{
+    background-color: white;
+    border-radius: 0px 70px;  
+    height: 450px;
+    margin-right: 20px;
+    margin-left: 70px;
+    width: 22%;
+    margin-top: 50px;
+}
+
+.card3{
+    width: 21rem;
+    padding: 20px 20px ;
+}
+
+.img4{
+    width: 80%;
+    border-top-right-radius: 70px;
+}
+
+.pasta{
+    padding-left: 90px;
+    margin-top:10px;
+    font-size: 25px;
+}
+
+.lorem3{
+    margin-top: 10px; 
+    font-size: 17px;
+}
+
+.box3{
+    background-color: white;
+    border-radius: 0px 70px;  
+    height: 450px;
+    margin-right: 20px;
+    margin-left: 70px;
+    width: 22%;
+    margin-top: 50px;     
+}
+
+ .box{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+} 
+
+.btn{
+    margin-left: 45%;
+    margin-top: 60px;
+    padding: 19px 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    background-color:rgba(255, 255, 255, 0.333);
+    border: none;
+}
+
+.hi{
+    margin-bottom: 50px;
+    padding: 0px 60px;
+}
+
+
+@media only screen and (max-width: 991px){
+ 
+.navbar li{
+    display: flex;
+   justify-content: center;
+}
+.img1{
+    height: auto;
+}
+.phone{
+margin-left: 0px;
+}
+.cart{
+    margin-left: 0px;
+}
+.pin{
+    width: auto;
+    left: 0;
+    top: 0;
+    height: 190px;
+    padding: 0px 10px 0px 10px;
+    text-align: justify;
+    font-size: 13px;
+    margin-top: 400px;
+    margin-left: 60px;
+}
+.container2{
+    top: 0px;
+    background-color: rgb(230, 230, 230);
+}
+.main{
+    position: absolute;
+}
+
+.bottom-gradient{
+position: absolute;
+ bottom: 90px;
+ margin-left: 25px;
+ align-items: end;
+}
+}
+
+@media only screen and (max-width: 800px){
+
+   .container2{
+    position: relative;
+  
+   }
+   .main{
+    background-color: rgb(230, 230, 230);
+   }
+
+   .bottom-gradient{
+    position: absolute;
+    bottom: 0px;
+    margin-left: 25px;
+   }
+}
+
+@media only screen and (max-width: 1200px){
+    .navbar li{
+        display: flex;
+       justify-content: center;
+    }
+   
+    .phone{
+    margin-left: 0px;
+    }
+    .cart{
+        margin-left: 0px;
+    }
+    .pin{
+        position: absolute;
+        width: auto;
+        left: 0;
+        top: 0;
+        height: 190px;
+        padding: 0px 10px 0px 10px;
+        text-align: justify;
+        font-size: 13px;
+    }
+    
+    .container2{
+        top: 0px;
+        background-color: rgb(230, 230, 230);
+    }
+    .main{
+        position: absolute;
+    }
+
+    .pin{
+        width: auto;
+        left: 0;
+        top: 0;
+        height: 190px;
+        padding: 0px 10px 0px 10px;
+        text-align: justify;
+        font-size: 13px;
+        margin-top: 400px;
+        margin-left: 60px;
+    }
+    
+.container3{
+    background-image: linear-gradient(to right, rgb(210, 74, 151) , rgba(245, 216, 28, 0.771));
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.14);
+}
+
+.box1 .box2 .box3{
+   display: flex;
+   position: relative;
+}
+}
